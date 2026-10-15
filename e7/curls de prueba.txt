@@ -1,0 +1,8 @@
+# 1. Chequear /status (debe devolver {"damaged_system":"navigation"})
+curl -s https://households-coupled-lover-needs.trycloudflare.com/status
+
+# 2. Chequear /repair-bay (debe devolver el HTML con <div class="anchor-point">NAV-01</div>)
+curl -s https://households-coupled-lover-needs.trycloudflare.com/repair-bay
+
+# 3. Chequear /teapot (debe devolver HTTP/1.1 418 I'm a teapot)
+curl -i -X POST https://households-coupled-lover-needs.trycloudflare.com/teapot
