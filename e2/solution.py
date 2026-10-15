@@ -38,7 +38,7 @@ def solve_standard():
             )
             res.raise_for_status()
         except requests.exceptions.RequestException as e:
-            raise RuntimeError(f"Hubo un dramon con la conexion en solve_standard: {e}") from None
+            raise RuntimeError(f"Hubo un error con la conexion en solve_standard: {e}") from None
 
         if total_count is None and "x-total-count" in res.headers:
             total_count = int(res.headers["x-total-count"])
