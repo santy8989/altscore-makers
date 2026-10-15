@@ -1,0 +1,23 @@
+Traduccion de la lectura de radar linea por linea:
+
+a01b01c01d01e01f01g01h01|0 0 0 0 0 0 0 0
+a02b02c02d02e$2f02g02h02|0 0 0 0 $ 0 0 0
+a03b03c03d03e03f03g03h$3|0 0 0 0 0 0 0 $
+a04b04c04d04e04f04g04h04|0 0 0 0 0 0 0 0
+a05b05c05d05e$5f05g^5h05|0 0 0 0 $ 0 ^ 0
+a06b06c06d06e$6f06g06h06|0 0 0 0 $ 0 0 0
+a07b07c07d07e07f07g07h07|0 0 0 0 0 0 0 0
+a08b08c08d08e08f#8g08h08|0 0 0 0 0 # 0 0
+
+pantalla correspondiente a la lectura del radar:
+
+0 0 0 0 0 # 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 $ 0 0 0
+0 0 0 0 $ 0 ^ 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 $
+0 0 0 0 $ 0 0 0
+0 0 0 0 0 0 0 0
+
+el texto viene ordenado de 1 a 8 y en el radar se renderiza de 8 a 1
